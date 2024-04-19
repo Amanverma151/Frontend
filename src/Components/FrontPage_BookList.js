@@ -53,9 +53,12 @@ function getAllBooks(){
           <div className='row'>
             <div className='col-md-12'>
               <br />
-              <h2 className='display-4 text-center'>Books List</h2>
+              <h2 className='display-4 text-center'>Books in the List</h2>
             </div>
   
+            <div class="circle">
+              <p class="length">{books.length}</p>
+            </div>
             <div className='col-md-11'>
               <Link
                 to='/create-book'
